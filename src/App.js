@@ -25,8 +25,8 @@ function App() {
           <Navbar title="TextUtils" mode={mode} toggleMode = {toggleMode} />
           <div className="container my-3">
             <Routes>
-                <Route exact path="/" element={<TextForm heading="Enter your Text Here"/>} />
-                <Route exact path="/about" element={<About />} />
+                <Route exact path="/" element={<TextForm mode={mode} heading="Enter your Text Here"/>} />
+                <Route exact path="/about" element={<About />} mode={mode} toggleMode={toggleMode} />
             </Routes>
           </div>
       </Router>
