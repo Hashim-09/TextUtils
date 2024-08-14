@@ -52,9 +52,9 @@ else{
       <div className="mb-3">
         <textarea className="form-control" onChange={handleOnChange} style={myStyle} placeholder={"Enter text Here"} value={text} autoFocus={true} rows="12"></textarea>
       </div>
-      <button className={`btn ${props.mode === "light" ? "btn-dark": "btn-secondary"} mx-3`} onClick={titelize}> Titelize Text </button>
       <button className={`btn ${props.mode === "light" ? "btn-dark": "btn-secondary"} mx-3`} onClick={setUpper}> Capitalize Text </button>
       <button className={`btn ${props.mode === "light" ? "btn-dark": "btn-secondary"} mx-3`} onClick={setLower}> Lower Case </button>
+      <button className={`btn ${props.mode === "light" ? "btn-dark": "btn-secondary"} mx-3`} onClick={titelize}> Titelize Text </button>
       <button className={`btn ${props.mode === "light" ? "btn-dark": "btn-secondary"} mx-3`} onClick={clearText}> Clear Text </button>
     </div>
     <div className="container my-3">
