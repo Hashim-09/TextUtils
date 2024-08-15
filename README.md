@@ -1,6 +1,6 @@
 # You can find the deployed product here
 
-[TextUtils-Vercel] (https://text-utils-six-topaz.vercel.app)
+[TextUtils-Vercel](https://text-utils-six-topaz.vercel.app)
 
 # Getting Started with Create React App
 
