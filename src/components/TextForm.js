@@ -59,7 +59,7 @@ else{
     </div>
     <div className="container my-3">
       <h2>Your Text Summary</h2>
-      <p> {text.split(" ").filter(n=>n).length} words and {text.length} characters </p>
+      <p> {text.split(/\s+/).filter(n=>n).length} words and {text.length} characters </p>
       <p> {Math.round(0.008 * text.split(" ").length)} minutes read </p>
     </div>
   </>
